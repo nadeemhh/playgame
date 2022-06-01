@@ -114,7 +114,7 @@ h4{font-weight: 20;}
     .cross{display: block;color: aliceblue;margin-right: 30px;font-size:30px;margin-top: 10px;}
     .d1{width: 70%;left: -70%; } 
 .cardparent{margin-left: 10px;margin-right: 10px;}
-.chosegaame{margin-left: 10px;}
+.chosegaame{margin-left: 10px;margin-top: 25px;}
 .top{display: block; font-family:orbitron;color: aliceblue;font-weight:100;}
 
 .d1{background-color: rgba(0, 0, 0, 1);}
