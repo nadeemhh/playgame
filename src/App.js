@@ -66,6 +66,7 @@ function App() {
             <button className="hide login">Log In</button>
             <button className="hide signup">Sign up</button>
         </section>
+        <div className='ftt'>
         <h2 className="chosegaame">Let’s choose the game</h2>
        {/* cards  */}
         <div className="cardparent">
@@ -87,6 +88,45 @@ function App() {
              
             </div>
           </div>
+
+          <div className="card">
+            <img className="cardimg" src={containerimg1} alt="Avatar" />
+            <div className="container">
+              <h3>Fishing Expert</h3> 
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+              <button className="signup">Play</button>
+            </div>
+          </div>
+
+          <div className="card">
+            <img className="cardimg" src={containerimg2} alt="Avatar" />
+            <div className="container">
+              <h3>Axie infinity</h3> 
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+              <button className="signup">Play</button>
+             
+            </div>
+          </div>
+          
+          <div className="card">
+            <img className="cardimg" src={containerimg1} alt="Avatar" />
+            <div className="container">
+              <h3>Fishing Expert</h3> 
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+              <button className="signup">Play</button>
+            </div>
+          </div>
+
+          <div className="card">
+            <img className="cardimg" src={containerimg2} alt="Avatar" />
+            <div className="container">
+              <h3>Axie infinity</h3> 
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> 
+              <button className="signup">Play</button>
+             
+            </div>
+          </div>
+          </div>
           </div>
           <div className="terms">
             <p className='ts'>By continuing you agree to the Terms of Service and Privacy Policy</p>
@@ -99,7 +139,7 @@ function App() {
 
 
 <div className="d1">
-
+<div className='difchild'>
     <section className="s11">
     <section className="see" style={{opacity: '0', width: '10px',height: '100%',backgroundColor: 'aqua',position: 'absolute',left: '99%'}}></section>
    
@@ -167,6 +207,7 @@ function App() {
             <h5>Invite friend</h5>
         </div>
     </section>
+</div>
 
 <div className='mobilepopup'>
 <img src={logout} alt={""}/>

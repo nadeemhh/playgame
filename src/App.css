@@ -3,12 +3,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 
-body{ background-image: url("./content.png");height: 100vh;width: 100vw;object-fit: contain;}
+body{ background-color: rgb(24, 24, 75);object-fit: contain;background-repeat: no-repeat;width: 100vw;}
 #root{display: flex;}
 
 
-.d1{height:100vh;width: 13%;background-color: rgba(0, 0, 0, 0.4);position: absolute;overflow: hidden;position: fixed;}
-.d2{height:100vh;width: 100vw;}
+.d1{height:100%;width: 13%;background-color: rgba(0, 0, 0, 0.4);position: absolute;overflow: hidden;position: fixed;display: flex;flex-direction: column;justify-content: space-around;}
+.d2{width: 100%;}
 .dd1{display: flex;gap: 16px;margin-left: 15px;font-family: orbitron;color: #5EC6B8;font-size: 15px;align-items: center;}
 .i{vertical-align: middle;}
 h5{font-weight: 20;}
@@ -38,9 +38,9 @@ h4{font-weight: 20;}
  .login:active{background-color: rgba(61, 80, 255, 1);border: none;color: aliceblue;font-weight: 400;}
  
  
- .chosegaame{font-family: orbitron;color: aliceblue;margin-left: 27%;}
- 
- .cardparent{display: flex;flex-wrap: wrap;justify-content: center; margin-left: 15%;margin-right: 15px;gap: 20px;margin-top: 2%;}
+  .chosegaame{font-family: orbitron;color: aliceblue;} 
+ .ftt{display: flex;flex-direction: column;align-items: center;justify-content: center;gap: 20px;margin-left: 10%;}
+ .cardparent{display: flex;flex-wrap: wrap;justify-content: center; gap: 20px;}
  
  .card{ background-color: rgba(0, 0, 0, 0.4);width:400px;height: 440px;color: aliceblue;}
  
@@ -57,7 +57,7 @@ h4{font-weight: 20;}
  .top{display: none;}
  .userimg2{display: none;}
 
- .popup{position: absolute; height: 100vh;width: 100vw;background-color: rgba(0, 0, 0, 0.719);z-index: 100;display: flex;justify-content: center;align-items: center;display: none;}
+ .popup{position: fixed; height: 100vh;width: 100%;background-color: rgba(0, 0, 0, 0.719);z-index: 100;display: flex;justify-content: center;align-items: center;display: none;}
 
 
 .popupcont{height: 250px;width: 250px;background-color: rgb(0, 0, 0);display: flex;flex-direction: column;padding: 5px;}
@@ -67,7 +67,7 @@ h4{font-weight: 20;}
 
 /* popup 2 */
 
-.popup2{position: absolute; height: 100vh;width: 100vw;background-color: rgba(0, 0, 0, 0.719);z-index: 100;display: flex;justify-content: center;align-items: center;display: none;}
+.popup2{position: fixed; height: 100vh;width: 100%;background-color: rgba(0, 0, 0, 0.719);z-index: 100;display: flex;justify-content: center;align-items: center;display: none;}
 
 .popupcont2{height: 110px;width: 250px;background-color: rgb(0, 0, 0);display: flex;flex-direction: column;padding: 5px;align-items: center;gap: 30px;justify-content: center;}
 
@@ -77,7 +77,7 @@ h4{font-weight: 20;}
 .stylelog{color: aliceblue;font-family: orbitron;font-weight: 100;}
 
 
-.mobilepopup{display: flex;justify-content: center;margin-top: 150px;gap: 8px;opacity: 0;}
+.mobilepopup{display: flex;justify-content: center;gap: 8px;}
 .mobilepopupstyle{color: aliceblue;font-family: orbitron;font-weight: 100;}
 
 .short{width: 60px; height:40px;border-color: rgba(61, 80, 255, 1);color: rgba(61, 80, 255, 1);background-color: rgba(61, 80, 255, 0);font-weight: 400;}
@@ -86,7 +86,7 @@ h4{font-weight: 20;}
 .hideearn{display: none;width: 105px; height:40px;border-color: rgba(61, 80, 255, 1);color: rgba(61, 80, 255, 1);background-color: rgba(61, 80, 255, 0);font-weight: 400;}
 .hideimg{display: none;}
 
-
+/* .difchild{} */
 .bur{display: none;}
  /* .bur{display: none;}
  @media only screen and (max-width: 1148px) {
@@ -108,7 +108,7 @@ h4{font-weight: 20;}
     .bur{display: block;color: aliceblue;font-size:25px;margin-left: 10px;}
     .userimg2{display: block; margin-right: 10px;margin-top: 5px;}
     .hide{display: none;}
-     .d2c1{display: flex;justify-content: flex-start;justify-content: space-between;} 
+     .d2c1{display: flex;justify-content: flex-start;justify-content: space-between; position: sticky;position: -webkit-sticky;top: 0px;} 
     .dd1user{display: flex;justify-content: flex-end;}
     .hide2{display: none;}
     .cross{display: block;color: aliceblue;margin-right: 30px;font-size:30px;margin-top: 10px;}
