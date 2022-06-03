@@ -7,7 +7,7 @@ body{ background-color: rgb(24, 24, 75);width: 100vw;}
 #root{display: flex;}
 
 
-.d1{height:100%;width: 13%;background-color: rgba(0, 0, 0, 0.4);position: absolute;overflow: hidden;position: fixed;display: flex;flex-direction: column;justify-content: space-around;}
+.d1{height:100vh;width: 13%;background-color: rgba(0, 0, 0, 0.4);position: absolute;overflow: hidden;position: fixed;display: flex;flex-direction: column;justify-content: space-around;}
 .d2{width: 100%;}
 .dd1{display: flex;gap: 16px;margin-left: 15px;font-family: orbitron;color: #5EC6B8;font-size: 15px;align-items: center;}
 .i{vertical-align: middle;}
